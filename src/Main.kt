@@ -23,8 +23,11 @@ fun main() {
 
 fun useConditions() {
     val x = 20
+    val y = 1
+    println(if(x > y) x else y)//'if' must have both main and 'else' branches when used as an expression.
     if(x == 20 )
     {
+        // ++x; val value can not be reaigned
         println("x is less than 20")
     }
     else
